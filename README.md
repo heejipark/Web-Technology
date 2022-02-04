@@ -3,7 +3,7 @@
 
 
 
-Student: Hee JI Park <br>
+Student: Hee Ji Park <br>
 This is main page for assignments!
 
 
