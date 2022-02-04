@@ -1,20 +1,18 @@
-# CSCI571 Web Technology
+# Web Technology 🌱
 
-Student: Hee JI Park 
+
+
+
+Student: Hee JI Park <br>
 This is main page for assignments!
 
 
 Note that https://heejipark.github.io/ is my personal portfolio site, so please add '/CSCI571/' at the end of the link!
 
-- My GitHub main link for assignments     : https://heejipark.github.io/CSCI571/  
-- My GitHub link that contains four links : https://heejipark.github.io/CSCI571/HelloThisIsHeeJiPark 
+- Main Github link only for assignments  : https://heejipark.github.io/CSCI571/  
+- GitHub link that contains four links   : https://heejipark.github.io/CSCI571/HelloThisIsHeeJiPark 
 
 
-If you want to check my assignments, plesase use the second link! You can find the other 4 links in the link above.
+If you want to check my assignments, please use the second link! You can find the other 4 links in the link above. <br>
 Thank you!
-
-
-
-
-
 
