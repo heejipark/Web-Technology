@@ -8,7 +8,7 @@ Address: https://heejipark.github.io/CSCI571/
 
 (Note that https://heejipark.github.io/ is my personal portfolio site, so please add '/CSCI571/' at the end!)
 
-If you want to test my code, you can simly use this address like
+If you want to find my assignments, you can simply use this address like
 https://heejipark.github.io/CSCI571/HelloThisIsHeeJiPark or
 https://heejipark.github.io/CSCI571/HelloThisIsHeeJiPark.html
 
