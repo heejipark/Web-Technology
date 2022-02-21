@@ -1,0 +1,195 @@
+body {
+    margin:0;
+    position: absolute;
+    font-family: 'Comfortaa';
+    line-height: 1.5;
+    color: white;
+    font-size: 14.5px;
+  }
+
+  ul {
+    margin:0;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: black;
+    text-align: center;
+    padding: 10px 10px;
+  }
+  
+  li {
+    display: inline-block;
+    list-style-type: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-shadow: 1.5px 1px #f47920;  
+    font-size: 25px;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    color: #f47920;
+    text-shadow: 1.5px 1px white;
+  }
+
+  .error_li {
+    display: block;
+    color: #f47920;
+    text-shadow: 1.5px 1px white;
+    font-size: 25px;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+  }
+  
+  .error_li:hover {
+    color:  white;
+    text-shadow: 1.5px 1px #f47920;
+  }
+  
+ .section2_table{
+    display: inline-block;
+    background-color: black;
+    width: 300px;
+    height: 460px;
+    margin: 15px 15px 15px 15px;
+    padding: 15px 15px 15px 15px;
+ }
+
+ th{
+    text-align: center; 
+ }
+ td{
+    text-align: justify;
+ }
+
+  .heading{
+    font-size: 17px;
+    padding-top: 10px;
+  }
+
+  .section2_text{
+    text-align: left; 
+    font-size: 14px;
+    padding-top: 5px;
+  }
+  
+  /* Style the header */
+  header {
+    background-image: url("../img/rodeo-drive.jpg");
+    background-size: cover;
+    padding: 30px;
+    width: 1291px;
+    height : 270px;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 1px 2px 1px white;
+    background-position: 50% 86%;
+    color: #f47920;
+  }
+
+  .header_404 {
+    background-image: url("../img/404-featured.jpg");
+    background-size: cover;
+    padding: 30px;
+    width: 1291px;
+    height : 270px;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    background-position: 50% 50%;
+    box-shadow: inset 200px 200px 200px 200px rgba(244, 121, 32, 0.4);
+  }
+
+  .header_text{
+    padding: 70px;
+  }
+
+  section {
+    padding: 100px 0px 0px 0px;
+  }
+
+  .section2{
+    height : 700px;
+    background-color: #222529;
+    color:white;
+    text-align: center;
+  }
+
+  .section3{
+    height : 500px;
+    background-color: black;
+    color:white;
+    text-align: center;
+  }
+
+  .section4{
+    height : 700px;
+    background-color: #222529;
+    color:white;
+    text-align: center;
+  }
+
+  .section_footer{
+    height : 250px;
+    background-color: #222529;
+    color:white;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  footer{
+    background-color: black;
+    height : 150px;
+    color:white;
+    text-align: center;
+    padding: 30px 20px 0px 0px;
+    font-size: 13px;
+  }
+ 
+  .foot{
+    text-align: center;
+  }
+  
+  .justify{
+    text-align: justify;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .row {
+    margin: 8px -16px 100px 100px;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 300px;
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: black;
+    padding: 10px;
+  }
+  
+  a {
+    text-decoration: none; 
+    color: inherit; 
+  }

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="./css/hw.css" />
+<link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+</head>
+<body>
+<ul>
+  <li><a href="./HW1.html">Home</a></li>
+  <li><a href="./404.html">Explore</a></li>
+  <li><a href="./404.html">Contact</a></li>
+</ul>
+
+<header>
+  <h3 class="header_text">LA - The City of Angeles</h3>
+</header>
+
+
+<section class="section2">
+  <p id="section2_table"></p>
+</section>
+
+<script type="text/javascript">
+  fetch('data.json')
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (data){
+    text=''
+    for(i=0; i<data.section2.length; i++){
+      text += "<table class='section2_table'><tr><th><img src='./img/"+data.section2[i].image+"' width=260px height=180px;></th></tr>"
+      text += "<tr><td class='heading'>"+data.section2[i].heading+"</td></tr>"
+      text += "<tr><td class='section2_text'>"+data.section2[i].text+"</td></tr></table>"
+      document.querySelector("#section2_table").innerHTML = text
+      console.log(text)
+    }
+  })
+  </script>
+
+
+<section class="section3">
+  <center>
+  <table width=1000px>
+    <tr>
+    <td class='justify'>
+    <p id="section3"></p>
+    </td>
+    <td><img src="./img/lasky.png" width=470px height=280px></td>
+    </tr>
+  </table>
+</center>
+</section>
+
+<script type="text/javascript">
+  fetch('data.json')
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (data){
+    console.log(data.section3.text[0])
+    document.querySelector("#section3").innerHTML = data.section3.text[0] + '<br><br>' + data.section3.text[1]
+  })
+  </script>
+
+
+<section class="section4">
+  <center>
+    <p id="section4_table"></p>
+  </center>
+</section>
+
+  
+<script type="text/javascript">
+  fetch('data.json')
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (data){
+    text=''
+    for(i=0; i<data.section4.length; i++){
+      if (i %2 == 0) {
+        text += "<table width=1000px><tr><td class='justify'><img src='./img/"+data.section4[i].image+"' width=320px height=220px></td>"
+        text += "<td class='justify'><h1 style='text-align:left;'>"+data.section4[i].heading+"</h1>"
+        text += data.section4[i].text + "</tr></table>"
+      }
+      else {
+        text += "<table width=1000px><tr><td class='justify'><h1 style='text-align:right;'>"+data.section4[i].heading+"</h1>"
+        text += data.section4[i].text + "</td>"        
+        text += "<td class='justify'><img src='./img/"+data.section4[i].image+"' width=320px height=220px></td></tr></table>"
+      }
+      document.querySelector("#section4_table").innerHTML = text
+      console.log(text)
+    }
+  })
+  </script>
+
+<footer>
+  <center>
+    <table width=1000px>
+    <tr class="foot">
+      <td class="foot" style="width:600px"></td>
+      <td class="foot" style="font-size: 14.5px;"><b>Designed By</b></td>
+    </tr>
+    <tr class="foot">
+      <td class="foot">Tip the world over on its side and everything loose will land <br> in Los Angeles.</td>
+      <td class="foot">Hee Ji Park</td>
+    </tr>
+    <tr class="foot">
+      <td class="foot">- Frank Lloyd Wright</td>
+      <td class="foot"> <a href='mailto:heejipar@usc.edu'>heejipar@usc.edu</a> <br> <a href='tel:+12136758334'>(+1) 213 675 8334</a></td>
+    </tr>
+    </table>
+  </center>
+</footer>
+</body>
+</html>
+
+
