@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Blood Pressure Predictor</title>
+<style>
+    body {
+        background: #FFFFFF;
+        text-align:center;
+        margin:200px;
+      }
+
+    .blood_color{
+        color:#a83838;
+    }
+    .button{
+        background: #213b8a;
+        color:white;
+    }
+
+    th, td {
+      border-bottom: 0px solid #ddd;
+      text-align:right;
+      padding:5px;
+    }
+    .center{
+        text-align:center;
+    }
+    .main_border{
+        border-color:#a83838;
+    }
+
+</style>
+</head>
+<body>
+<p class="main_border">
+<center>
+<h1 class="blood_color">Blood Pressure Predictor</h1>
+
+<h3 class="blood_color">Fill out the form to get your Blood Pressure estimate!</h3>
+
+<form action="/result" method='POST'>
+<table>
+  <tr>
+      <th>Age <font style="color:red">*</font></th>
+      <td><input type="number" name="age" placeholder="Enter age in years" width=5500 required> </td>
+  </tr>
+  <tr>
+      <th>Weight <font style="color:red">*</font></th>
+      <td><input type="number" name="weight" placeholder="Enter weight in kg" width=5500 required> </td>
+  </tr>
+  <tr>
+      <th colspan=2 class="center"><input type="submit" value="Calculate" class="button"></th>
+  </tr>
+  </table>
+</form>
+<br>
+<b>{{data}}</b>
+<br><br>
+</center>
+</p>
+</body>
+</html>
+
