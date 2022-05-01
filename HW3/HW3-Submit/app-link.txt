@@ -1,0 +1,9 @@
+Hee Ji Park
+
+
+1. Github.io
+https://heejipark.github.io/CSCI571/HW3/build/
+
+
+2. Homework page
+https://heejipark.github.io/CSCI571/HelloThisIsHeeJiPark.html
